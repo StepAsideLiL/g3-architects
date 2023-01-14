@@ -30,10 +30,14 @@ span {
 /* Header Section Style */
 /* ==================== */
 .header {
-  padding: 40px 120px;
+  padding: 40px 80px;
   background: #ff900e1a;
 }
 
+
+/* ======================== */
+/* Navigation Section Style */
+/* ======================== */
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -64,12 +68,53 @@ span {
 
 
 
+/* ============================= */
+/* Media Query For Tablet Device */
+/* ============================= */
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
+  .header {
+    padding: 20px 40px;
+  }
 
+  .site-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    color: #3A3A3A;
+  }
+
+  .nav .nav-list a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3A3A3A;
+  }
+}
 
 
 /* ============================= */
 /* Media Query For Mobile Device */
 /* ============================= */
 @media only screen and (max-width: 500px) {
-  /* Some */
+  .header {
+    padding: 20px 0;
+  }
+
+  .nav-container {
+    flex-direction: column;
+  }
+
+  .site-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 53px;
+    color: #3A3A3A;
+  }
+
+  .nav .nav-list a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: #3A3A3A;
+  }
 }
