@@ -203,6 +203,10 @@ a.qf-explore {
 /* =============================== */
 /* Feature You Enjoy Section Style */
 /* =============================== */
+.feature-enjoy {
+  padding: 0 30px;
+}
+
 .fe-container {
   display: flex;
   align-items: center;
@@ -284,6 +288,73 @@ a.qf-explore {
   font-size: 18px;
   line-height: 20px;
 }
+
+
+/* ======================== */
+/* Some Facts Section Style */
+/* ======================== */
+.some-fact {
+  margin-top: 100px;
+  margin-bottom: 180px;
+  padding: 0 30px;
+}
+
+.sf-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+
+.sf-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 60px;
+}
+
+.sf-facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px;
+  grid-gap: 70px;
+}
+
+.sf-fact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+  border: 1px solid #FF900E;
+}
+
+.sf-fact:hover {
+  border-bottom: 15px solid #FF900E;
+}
+
+.sf-fact img {
+  width: 45px;
+}
+
+.sf-fact h3 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+  margin: 5px 0 10px;
+}
+
+.sf-fact p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #727272;
+}
+
 
 
 
@@ -428,6 +499,36 @@ a.qf-explore {
   .fe-exprience p {
     font-size: 16px;
   }
+
+
+  /* Some Facts Section Style */
+  .sf-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .sf-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
+  .sf-facts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px 200px;
+    grid-row-gap: 70px;
+    padding: 0 80px;
+  }
+
+  .sf-fact h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .sf-fact p {
+    font-size: 16px;
+  }
 }
 
 
@@ -435,7 +536,6 @@ a.qf-explore {
 /* Media Query For Mobile Device */
 /* ============================= */
 @media only screen and (max-width: 500px) {
-
   /* Header Section Style */
   .header {
     padding: 20px 10px;
@@ -577,6 +677,35 @@ a.qf-explore {
   }
 
   .fe-exprience p {
+    font-size: 16px;
+  }
+
+
+  /* Some Facts Section Style */
+  .sf-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .sf-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .sf-facts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px 200px;
+    grid-gap: 10px;
+  }
+
+  .sf-fact h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .sf-fact p {
     font-size: 16px;
   }
 }
