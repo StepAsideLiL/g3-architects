@@ -32,6 +32,7 @@ span {
 .header {
   padding: 40px 80px;
   background: #ff900e1a;
+  margin-bottom: 85px;
 }
 
 
@@ -118,7 +119,83 @@ a.call-action {
 
 
 
+/* ================== */
+/* Main Section Style */
+/* ================== */
+.main {
+  max-width: 1280px;
+  margin: 0 auto;
+}
 
+
+
+/* ==================================== */
+/* Quick List of Features Section Style */
+/* ==================================== */
+.quick-feature {
+  padding: 0 100px;
+}
+
+.qf-container {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.qf-images,
+.qf-heading {
+  flex: 1;
+}
+
+.qf-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.qf-images img {
+  min-width: 80px;
+  width: 100%;
+}
+
+.qf-title,
+.qf-subtitle {
+  margin-bottom: 24px;
+}
+
+.qf-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+
+.qf-grey {
+  font-weight: 500;
+  color: #727272;
+}
+
+.qf-orange {
+  color: #FF900E;
+}
+
+.qf-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+
+a.qf-explore {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  background-color: #FF900E;
+  padding: 20px 24px;
+  border-radius: 10px;
+}
 
 
 
@@ -129,6 +206,7 @@ a.call-action {
 /* Media Query For Tablet Device */
 /* ============================= */
 @media only screen and (max-width: 1000px) and (min-width: 500px) {
+  /* Header Section Style */
   .header {
     padding: 20px 40px;
   }
@@ -140,6 +218,8 @@ a.call-action {
     color: #3A3A3A;
   }
 
+
+  /* Navigation Section Style */
   .nav .nav-list a {
     font-weight: 500;
     font-size: 16px;
@@ -147,9 +227,8 @@ a.call-action {
     color: #3A3A3A;
   }
 
-  /* ================== */
+
   /* Hero Section Style */
-  /* ================== */
   .hero-title {
     font-weight: 700;
     font-size: 36px;
@@ -172,6 +251,35 @@ a.call-action {
     padding: 16px 20px;
     border-radius: 10px;
   }
+
+
+  /* Quick List of Features Section Style */
+  .quick-feature {
+    padding: 0 30px;
+  }
+
+  .qf-container {
+    gap: 30px;
+  }
+
+  .qf-images {
+    gap: 10px;
+  }
+
+  .qf-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .qf-subtitle {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  a.qf-explore {
+    font-size: 17px;
+    line-height: 23px;
+  }
 }
 
 
@@ -179,6 +287,7 @@ a.call-action {
 /* Media Query For Mobile Device */
 /* ============================= */
 @media only screen and (max-width: 500px) {
+  /* Header Section Style */
   .header {
     padding: 20px 10px;
   }
@@ -194,6 +303,8 @@ a.call-action {
     color: #3A3A3A;
   }
 
+  
+  /* Navigation Section Style */
   .nav .nav-list a {
     font-weight: 500;
     font-size: 14px;
@@ -201,9 +312,8 @@ a.call-action {
     color: #3A3A3A;
   }
 
-  /* ================== */
+
   /* Hero Section Style */
-  /* ================== */
   .hero-title {
     font-weight: 700;
     font-size: 20px;
@@ -225,5 +335,41 @@ a.call-action {
     margin: 21px 26px;
     padding: 16px 20px;
     border-radius: 10px;
+  }
+
+
+  /* Quick List of Features Section Style */
+  .quick-feature {
+    padding: 0 10px;
+  }
+
+  .qf-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .qf-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .qf-heading {
+    text-align: center;
+  }
+
+  .qf-title {
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .qf-subtitle {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  a.qf-explore {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
