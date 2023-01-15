@@ -398,6 +398,75 @@ a.qf-explore {
 }
 
 
+/* ==================== */
+/* Footer Section Style */
+/* ==================== */
+.footer {
+  padding: 40px 130px;
+  background-color: #FFF4E7;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+
+.about-us h1,
+.about-us p {
+  width: 600px;
+  padding-right: 160px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+
+.cu-contact {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #3A3A3A;
+  margin-bottom: 10px;
+}
+
+.cu-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cu-form input,
+.cu-form textarea {
+  width: 300px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 1px solid #3A3A3A;
+  border-radius: 10px;
+}
+
+.cu-form input[type="submit"] {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  background-color: #FF900E;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #424242;
+}
 
 
 
@@ -421,34 +490,27 @@ a.qf-explore {
   }
 
   .site-title {
-    font-weight: 700;
     font-size: 36px;
-    line-height: 53px;
-    color: #3A3A3A;
+    line-height: 40px;
   }
 
 
   /* Navigation Section Style */
   .nav .nav-list a {
-    font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    color: #3A3A3A;
   }
 
 
   /* Hero Section Style */
   .hero-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-    color: #131313;
   }
 
   .hero-subtitle {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 26px;
+    line-height: 20px;
   }
 
   a.call-action {
@@ -594,6 +656,34 @@ a.qf-explore {
 
   .os-companies img {
     width: 120px;
+  }
+
+
+  /* Footer Section Style */
+  .footer {
+    padding: 40px 30px;
+  }
+
+  .footer-container {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .about-us h1,
+  .about-us p {
+    width: inherit;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .cu-contact {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .cu-form input,
+  .cu-form textarea {
+    width: 250px;
   }
 }
 
@@ -752,7 +842,7 @@ a.qf-explore {
   .some-fact {
     margin-bottom: 60px;
   }
-  
+
   .sf-title {
     font-size: 30px;
     line-height: 35px;
@@ -801,5 +891,35 @@ a.qf-explore {
 
   .os-companies img {
     width: 120px;
+  }
+
+
+  /* Footer Section Style */
+  .footer {
+    padding: 40px 30px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .about-us h1,
+  .about-us p {
+    width: inherit;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .cu-contact {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .cu-form input,
+  .cu-form textarea {
+    width: 250px;
   }
 }
