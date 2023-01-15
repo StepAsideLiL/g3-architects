@@ -295,7 +295,7 @@ a.qf-explore {
 /* ======================== */
 .some-fact {
   margin-top: 100px;
-  margin-bottom: 180px;
+  margin-bottom: 130px;
   padding: 0 30px;
 }
 
@@ -353,6 +353,48 @@ a.qf-explore {
   font-size: 20px;
   line-height: 23px;
   color: #727272;
+}
+
+
+/* ========================== */
+/* Our Sponsors Section Style */
+/* ========================== */
+.our-sponsors {
+  padding: 0 30px;
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.os-title,
+.os-subtitle {
+  margin-bottom: 20px;
+}
+
+.os-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+
+.os-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+
+.os-companies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.os-companies img {
+  width: 160px;
+  filter: grayscale(100%);
 }
 
 
@@ -529,6 +571,30 @@ a.qf-explore {
   .sf-fact p {
     font-size: 16px;
   }
+
+
+  /* Our Sponsors Section Style */
+  .our-sponsors {
+    margin-bottom: 60px;
+  }
+
+  .os-title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .os-subtitle {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .os-companies {
+    gap: 20px;
+  }
+
+  .os-companies img {
+    width: 120px;
+  }
 }
 
 
@@ -536,6 +602,7 @@ a.qf-explore {
 /* Media Query For Mobile Device */
 /* ============================= */
 @media only screen and (max-width: 500px) {
+
   /* Header Section Style */
   .header {
     padding: 20px 10px;
@@ -682,6 +749,10 @@ a.qf-explore {
 
 
   /* Some Facts Section Style */
+  .some-fact {
+    margin-bottom: 60px;
+  }
+  
   .sf-title {
     font-size: 30px;
     line-height: 35px;
@@ -707,5 +778,28 @@ a.qf-explore {
 
   .sf-fact p {
     font-size: 16px;
+  }
+
+
+  .our-sponsors {
+    margin-bottom: 60px;
+  }
+
+  .os-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .os-subtitle {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .os-companies {
+    gap: 20px;
+  }
+
+  .os-companies img {
+    width: 120px;
   }
 }
