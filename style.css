@@ -485,7 +485,7 @@ a.qf-explore {
 /* ============================= */
 /* Media Query For Tablet Device */
 /* ============================= */
-@media only screen and (max-width: 1000px) and (min-width: 426px) {
+@media only screen and (max-width: 1000px) and (min-width: 501px) {
 
   /* Header Section Style */
   .header {
@@ -694,7 +694,7 @@ a.qf-explore {
 /* ============================= */
 /* Media Query For Mobile Device */
 /* ============================= */
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 500px) {
 
   /* Header Section Style */
   .header {
